@@ -1,4 +1,6 @@
-export interface JokeModel{
-    title:string,
-    text:string
-}
+export interface JokeModel {
+    joke: string;
+    id: string;
+    setup: string;
+    punchline: string;
+  }
